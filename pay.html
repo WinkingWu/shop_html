@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>支付页</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/localStorage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/myjs.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/pay.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<p>您好，欢迎来到德尔商城！</p>
+				<ul>
+					<li><a href="login.html">登录</a>/<a href="reg.html">注册</a></li>
+					<li><a href="shop_cart.html">购物车<i id="car_num">0</i></a></li>
+					<li><a href="order.html">我的订单</a></li>
+					<li><a href="###">企业采购</a></li>
+					<li><a href="###">帮助中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="logo_serach">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.jpg"/></a>
+				</div>
+				<form class="serach">
+					<input type="search" name="" id="" value="" />
+					<button type="submit"><img src="img/icon_search.png"/></button>
+				</form>
+			</div>
+		</div>
+		<div class="navbar">
+			<div class="container">
+				<div class="dropdown">
+					<div class="dropdown_btn">
+						<img src="img/icon_list.png"/>
+						<span>商品类型</span>
+					</div>
+					<div class="dropdown_menu hidden">
+						<ol>
+								<li class="dropdown_header"><img src="img/icon_dfg.png" alt="" />厨房小电器</li>
+								<li><a href="shop_list.html">电饭煲</a></li>
+								<li><a href="shop_list.html">电磁炉</a></li>
+								<li><a href="shop_list.html">电蒸锅</a></li>
+								<li><a href="shop_list.html">电炖锅</a></li>
+								<li><a href="shop_list.html">面条机</a></li>
+								<li><a href="shop_list.html">面包机</a></li>
+							</ol>
+							<ol>
+								<li class="dropdown_header"><img src="img/icon_xyyj.png" alt="" />厨卫电器</li>
+								<li><a href="shop_list.html">燃气炉</a></li>
+								<li><a href="shop_list.html">吸油烟机</a></li>
+								<li><a href="shop_list.html">消毒柜</a></li>
+								<li><a href="shop_list.html">微波炉</a></li>
+								<li><a href="shop_list.html">净水器</a></li>
+							</ol>
+							<ol>
+								<li class="dropdown_header"><img src="img/icon_tg.png"/>炊具</li>
+								<li><a href="shop_list.html">铲勺</a></li>
+								<li><a href="shop_list.html">提锅</a></li>
+								<li><a href="shop_list.html">水壶</a></li>
+								<li><a href="shop_list.html">压力锅</a></li>
+								<li><a href="shop_list.html">炒锅</a></li>
+								<li><a href="shop_list.html">煎锅</a></li>
+								<li><a href="shop_list.html">刀具</a></li>
+								<li><a href="shop_list.html">陶瓷煲</a></li>
+							</ol>
+					</div>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="shop_list.html">最新产品</a></li>
+						<li><a href="shop_list.html">热门产品</a></li>
+						<li><a href="shop_list.html">推荐产品</a></li>
+						<li><a href="shop_list.html">爆款推荐</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="middle container">
+			<div class="process">
+				<ol>
+					<li>
+						<p></p>
+						<div>
+							<i></i>
+							<span>购物车</span>
+						</div>
+					</li>
+					<li>
+						<p></p>
+						<div>
+							<i></i>
+							<span>确定订单</span>
+						</div>
+					</li>
+					<li>
+						<p></p>
+						<div>
+							<i></i>
+							<span>支付</span>
+						</div>
+					</li>
+					<li>
+						<p></p>
+					</li>
+				</ol>
+			</div>
+			<div class="order">
+				<img src="img/pay_success.jpg"/>
+				<div class="order_con">
+					<h1>订单提交成功!</h1>
+					<p>订单号为2135468121453，请你在24个小时内完成付款（逾期订单将自动取消）</p>
+					<h3>应付金额：<b class="payment">￥305.00</b></h3>
+					<a href="order_details.html">订单详情<i class="caret"></i></a>
+				</div>
+			</div>
+			<h2>支付方式</h2>
+			<div class="pay_method">
+				<div class="pay_platform">
+					<h4>支付平台</h4>
+					<ol>
+						<li>
+							<a href="###">
+								<img src="img/select.png"/>
+								<img src="img/pay_zfb.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_wx.jpg"/>
+							</a>
+						</li>
+					</ol>
+				</div>
+				<div class="e_bank">
+					<h4>网上银行</h4>
+					<ul>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_01.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_02.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_03.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_04.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_05.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_06.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_07.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_08.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_09.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_10.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_11.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_12.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_13.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_14.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_15.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_16.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_17.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/no_select.png"/>
+								<img src="img/pay_18.jpg"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="pay_btn">
+					<button onclick="submitPay()">立即支付</button>
+				</div>
+			</div>
+		</div>
+		<div class="help">
+			<div class="container">
+				<ul>
+					<li>
+						<img src="img/icon_quality.jpg"/>
+						<h1>品质保证</h1>
+					</li>
+					<li>
+						<img src="img/icon_blitz.jpg"/>
+						<h1>闪电发货</h1>
+					</li>
+					<li>
+						<img src="img/icon_seven.jpg"/>
+						<h1>7天无理由退货</h1>
+					</li>
+					<li>
+						<img src="img/icon_complete.jpg"/>
+						<h1>品类齐全</h1>
+					</li>
+					<li>
+						<img src="img/icon_service.jpg"/>
+						<h1>品类齐全</h1>
+					</li>
+				</ul>
+				<ol>
+					<li><h2>购物指南</h2></li>
+					<li><a href="###">免费注册</a></li>
+					<li><a href="###">开通支付宝</a></li>
+					<li><a href="###">支付宝充值</a></li>
+				</ol>
+				<ol>
+					<li><h2>购物保障</h2></li>
+					<li><a href="###">发票保障</a></li>
+					<li><a href="###">售后规则</a></li>
+					<li><a href="###">缺货赔付</a></li>
+				</ol>
+				<ol>
+					<li><h2>支付方式</h2></li>
+					<li><a href="###">快捷支付</a></li>
+					<li><a href="###">信用卡</a></li>
+					<li><a href="###">余额宝</a></li>
+					<li><a href="###">蚂蚁花呗</a></li>
+				</ol>
+				<ol>
+					<li><h2>客户服务</h2></li>
+					<li><a href="###">门店查询</a></li>
+					<li><a href="###">运输相关</a></li>
+					<li><a href="###">常见问题</a></li>
+				</ol>
+				<ol>
+					<li><h2>扫一扫</h2></li>
+					<li><img src="img/ewm.jpg" alt="" /></li>
+				</ol>
+			</div>
+		</div>
+		<div class="copy">
+			<div class="container">
+				<h3>关于德尔 帮助中心 开放平台 诚聘英才 联系我们 网站合作 法律声明及隐私权政策 知识产权 廉正举报 规则意见征集</h3>
+				<p>互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005   浙公网安备 33010002000120号</p>
+				<p>© 2003-2017 TMALL.COM 版权所有</p>
+			</div>
+		</div>
+	</body>
+</html>

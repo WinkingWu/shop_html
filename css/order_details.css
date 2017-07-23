@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+.process{background: #FFFFFF;border-radius: 5px 5px 0 0;color: #353535;;font-size: 18px;}
+.process li>div{right: -22px;color:#353535 ;}
+.process ol{margin: 20px 0;}
+.process li{width: 20%;}
+.process li i{background: #FFFFFF;}
+.process>h2{color: #232323;font-size: 20px;padding:50px 0 10px 85px;}
+.process>p{color: #6e6e6e;font-size: 18px;margin-left: 85px;}
+.process>p span{padding-right: 45px;}
+.process>p span b{color: #f95252;}
+.process>h3{color: #353535;font-size: 18px;padding-left: 45px;}
+.process dl{padding:50px 85px;}
+.process dt{color: #353535;;font-size: 18px;}
+.process dd{color: #5a5a5a;;font-size: 16px;}
+.process dd span{display: inline-block;width: 100px;}
+
+.order h3{color: #353535;font-size: 20px;padding-left: 85px;line-height: 74px;border-bottom: 1px #a3a3a3 solid;border-top:  1px #a3a3a3 solid;margin-bottom: 30px;}
+.order{margin-bottom: 140px;padding-bottom: 40px;background: #FFFFFF;font-size: 16px;color: #333333;border-radius:0 0 5px 5px;}
+.order_list ol{height: 48px;padding: 0 38px; font-size: 18px;padding-left: 240px;}
+.order_list ul{height: 210px;border-bottom: 1px solid #a3a3a3;}
+.order_list li{float: left;width: 105px;height: inherit;box-sizing: border-box;overflow: hidden;margin-right: 110px;text-align: center;}
+.order_list ol li{line-height: 48px;}
+.order_list ul li{padding-top: 80px;}
+.order_list ul li:nth-of-type(2){line-height: 20px;}
+.order_list ul li:first-child{width: 240px;}
+.order_list ol li:first-child{text-align: left;}
+.order_list ul li:nth-of-type(2){text-align: left;}
+.order_list ul li:first-child a img{width: 150px;height: 150px;margin-top: 10px;}
+.order_list ul li:first-child{padding-top: 20px;margin-right: 0px;}
+.order_list ul li input{background: #FFFFFF;font-size: 20px;text-align: center;float: left;width: 40px;height: 20px;line-height: 20px;border: none;border-bottom: 1px #E5E5E5 solid;border-top: 1px #E5E5E5 solid;}
+.order_list ul li button:nth-of-type(1){float: left;line-height: 0;padding: 10px 3px 14px;border: solid 1px #cccccc;font-size: 40px;background: #FFFFFF;}
+.order_list ul li button:nth-of-type(2){float: left;line-height: 0;padding: 10px 3px 14px;border: solid 1px #cccccc;font-size: 21px;font-weight: bold;background: #FFFFFF;}
+
+.total{padding: 40px 70px 30px;height: 140px;border-bottom: 1px #a3a3a3 solid;}
+.total ul{float: right;color: #333333;font-size: 18px;}
+
+.total li span{display: inline-block;width: 100px;text-align: right;}

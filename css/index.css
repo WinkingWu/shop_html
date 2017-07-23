@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.banner{height: 600px;position: relative;overflow: hidden;}
+.banner .bd ul{height: 600px;position: relative;}
+.banner .bd li{position: absolute;width: 100%;overflow: hidden;}
+.banner .bd li img{position: relative;left: 50%;margin-left: -960px;}
+.banner .hd ol{text-align: center;position: absolute;bottom: 23px;width: 100%;}
+.banner .hd li{cursor: pointer;width: 25px;height: 25px;background:rgba(86,187,229,1);display: inline-block;border-radius: 50%;margin: 0 38px;}
+.banner .hd li:hover{background:rgba(86,187,229,0.44)}
+.banner .hd li.on{background:rgba(86,187,229,0.44)}
+.banner .next{font-family: "宋体";font-size: 46px;position: absolute;top: 275px;right: 100px;color: #FFFFFF;cursor: pointer;}
+.banner .prve{font-family: "宋体";font-size: 46px;position: absolute;top: 275px;left: 100px;color: #FFFFFF;cursor: pointer;}
+.banner .next:hover,.banner .prve:hover{color: #00FF00;}
+
+.section h2{margin: 0;height: 78px;font-size: 30px;color: #353535;line-height: 78px;}
+.section ul,.section ol{margin-left: -10px;}
+.section ul li{border-radius: 10px;float: left;font-size: 22px;line-height: 35px;padding-bottom: 20px;background: #FFFFFF;text-align: center;margin:0 0 10px 10px;width: 290px;overflow: hidden;}
+.section ul>li img{border-top: 1px solid #3db264;}
+.section ul>li:nth-of-type(even) img{border-top: 1px solid #ababab;}
+
+.section li span{color: #373737;}
+.section li small{display: block;color: #666666;font-size: 18px;}
+.section li b{display: block;color: #ff3939;}
+
+.section ol li{border-radius: 10px;float: left;font-size: 22px;line-height: 30px;padding-bottom: 20px;background: #FFFFFF;text-align: center;margin:0 0 10px 10px;width: 390px;height: 232px;overflow: hidden;}
+.section ol li img{border-radius: 10px 10px 0 0;}
+.section ol li:first-child{text-align: left;height: 495px;line-height: 45px;font-size: 26px;}
+.section ol li:first-child span{padding: 0 30px;}
+.section ol li:first-child b{padding: 0 30px;}
+.section ol li:first-child small{display: block;padding: 0 30px;font-size: 22px;}
+.advert{width: 1200px;margin: 80px auto 10px;overflow: hidden;}
+.help{margin-top: 60px;}

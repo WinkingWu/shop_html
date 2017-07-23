@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.register{background: #FFFFFF;margin: 100px auto 160px;color: #333333;height: 680px;}
+.register .reg_info{float: left;width: 510px;height: 500px;padding: 80px 0 0 110px;font-size: 18px;color: #333333;}
+.register .reg_info h2{font-size: 22px;border-left:4px solid #009247;line-height: 22px ;padding-left: 5px;}
+.register .reg_info form{margin-top: 15px;}
+.register .reg_info input{width: 298px;height: 38px;border: solid 1px #999999;border-radius: 5px;}
+.register .reg_info div:nth-last-of-type(3) input{width: 98px;margin-left: 102px;float: left;}
+.register .reg_info div:nth-last-of-type(3){color: #5e5e5e;font-size: 14px;margin-bottom: 10px;}
+.register .reg_info div:nth-last-of-type(3) span{float: left;}
+.register .reg_info div:nth-last-of-type(3) span img{width: 86px;height: 40px;border: 1px solid #999999;border-radius: 4px;}
+.register .reg_info div:nth-last-of-type(3) i{margin-top: 20px;}
+.register .reg_info div:nth-last-of-type(3) span a{float: left;margin-left: 3px;}
+.register .reg_info div:nth-last-of-type(3) span a:last-child{position: relative;;top: 13px;}
+.register .reg_info div:nth-last-of-type(2){clear: both;margin-bottom: 10px;font-size: 14px;color: #666666;text-align: left;padding-left:105px ;}
+.register .reg_info div:nth-last-of-type(2) a{color: #0f57b0;}
+.register .reg_info div:nth-last-of-type(2) img{cursor: pointer;position: relative;top: 3px;}
+.register .reg_info div:nth-last-of-type(2) small{cursor: pointer;}
+.register .reg_info div:nth-last-of-type(2) i{margin-top: 8px;width: 150px;}
+.register .reg_info div{display: block;margin-bottom: 20px;}
+.register .reg_info div label{display: inline-block;width: 95px;text-align: right;}
+
+.register .reg_info button{cursor: pointer;width: 150px;height: 33px;border: none;background:#009247;color: #FFFFFF;line-height: 29px;border-radius: 5px;}
+.register .reg_info div:nth-last-of-type(1){text-align: center;}
+.register .reg_info i{display: inline-block;width:95px;font-size: 12px;color: red;line-height: 14px;float: right;}
+
+.register .login_mode{border-left: #999999 solid 2px;float: left;height: 440px;margin: 40px 0 0 0px;padding: 80px 0 0 80px;}
+.register .login_mode h3{font-size: 20px;color: #313131;}
+.register .login_mode li{margin-top: 30px;font-size: 14px;height: 45px;}
+.register .login_mode li img{float: left;}
+.register .login_mode li a {float: left;line-height: 42px;margin-left: 10px;color: #6f6f6f;}

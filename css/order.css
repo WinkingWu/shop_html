@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.my_order{border-radius: 5px;margin-bottom: 128px;background: #FFFFFF;}
+.my_order .order_menu{height: 85px;border-bottom: #8d8d8d 1px solid;padding:0 50px;}
+.my_order .order_menu li.on a{color: #009247;}
+.my_order .order_menu li:hover a{color: #009247;}
+.my_order .order_menu li{font-size: 22px;line-height: 22px;margin:28px 0 25px 0;float: left;width: 95px;border-left: 3px solid #737373;text-align: center;}
+.my_order .order_menu li:first-child{border-left: none;}
+.my_order .order_menu li a{color: #737373;}
+.my_order .order_menu{}
+
+
+.my_order table{width: 100%;}
+.my_order table,.my_order th,.my_order td{border: none;}
+.my_order tr{width: 100%;text-align: center;}
+.my_order thead tr{height: 48px;border-bottom: 1px solid #8d8d8d;color: #333333;}
+.my_order tbody tr{border-bottom: 1px solid #a3a3a3;color: #636363;}
+.my_order tr th{font-weight: normal;height: 80px;font-size: 20px;box-sizing: border-box;}
+.my_order tr td{width: 180px;overflow: hidden;box-sizing: border-box;font-size: 16px;height: 200px;}
+.my_order tr th:first-child{width: 205px;padding-left: 26px;text-align: left;}
+.my_order tr td:first-child{width: 205px;}
+.my_order tr td:first-child a>img{width: 150px;height: 150px;}
+.my_order tr td:first-child img.tick{margin: 0 10px;position: relative;top: -60px;}
+.my_order tr td:first-child+td a{color: #333333;}
+.my_order tr td:first-child+td+td{width: 210px;}
+.my_order tr td:first-child+td+td+td{width: 210px;}
+.my_order tr td:first-child+td+td+td+td{width: 210px;}
+.my_order tr td:last-child h4 a{padding: 3px 10px;color: #FFFFFF;background: #16b262;border-radius: 5px;}
+.my_order {}
+
+.my_order .lists {padding: 280px 0 100px;}
+.my_order .lists ol{width: 452px;}
+.my_order .lists ol li{width: 30px;height: 30px;font-size: 22px;margin: 0 10px;}
+.my_order .lists ol li a{line-height: 30px;}
+.my_order .lists ol li:nth-last-of-type(1) {width: 100px;}
+.my_order .lists ol li:nth-of-type(1) {width: 100px;}
+

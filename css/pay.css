@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+.process li:nth-of-type(2) *{border-color: #009247;}
+.process li:nth-of-type(3) *{border-color: #009247;}
+.process li:nth-of-type(4) *{border-color: #009247;}
+
+.middle h2{font-size: 22px;line-height: 70px;padding-left: 35px;margin-bottom: 40px;background: #FFFFFF;border-radius: 5px;}
+
+.order{background: #FFFFFF;padding: 20px 30px;margin-bottom: 68px;border-radius: 5px;}
+.order img{float: left;}
+.order .order_con{margin-left: 140px;margin-top: 10px;}
+.order .order_con h1{font-size: 30px;color: #202020;}
+.order .order_con p{font-size: 16px;color: #2e2e2e;}
+.order .order_con h3{font-size: 18px;color: #2E2E2E;}
+.order .order_con h3 b{font-size: 22px;color: #ff4444;}
+.order .order_con a{border: none;background: none;font-size: 16px;margin-bottom: 20px;color: #009247;display: inline-block;width: 86px;}
+.order .order_con a i{border-top:8px solid #009247;position: relative;top: 16px;right:-4px;}
+
+.order_list ol{height: 48px; font-size: 18px;padding-left: 240px;}
+.order_list ul{height: 210px;border-bottom: 1px solid #a3a3a3;}
+.order_list li{float: left;width: 105px;height: inherit;box-sizing: border-box;overflow: hidden;margin-right: 110px;text-align: center;}
+.order_list ol li{line-height: 48px;}
+.order_list ul li{padding-top: 80px;}
+.order_list ul li:nth-of-type(2){line-height: 20px;}
+.order_list ul li:first-child{width: 240px;}
+.order_list ol li:first-child{text-align: left;}
+.order_list ul li:nth-of-type(2){text-align: left;}
+.order_list ul li:first-child a img{width: 150px;height: 150px;margin-top: 10px;}
+.order_list ul li:first-child{padding-top: 20px;margin-right: 0px;}
+.order_list ul li input{background: #FFFFFF;font-size: 20px;text-align: center;float: left;width: 40px;height: 20px;border: none;border-bottom: 1px #E5E5E5 solid;border-top: 1px #E5E5E5 solid;}
+.order_list ul li button:nth-of-type(1){float: left;line-height: 0;padding: 10px 3px 14px;border: solid 1px #cccccc;font-size: 40px;background: #FFFFFF;}
+.order_list ul li button:nth-of-type(2){float: left;line-height: 0;padding: 10px 3px 14px;border: solid 1px #cccccc;font-size: 21px;font-weight: bold;background: #FFFFFF;}
+.total{padding: 40px 70px 30px;height: 140px;border-bottom: 1px #a3a3a3 solid;}
+.total ul{float: right;color: #333333;font-size: 18px;}
+.total li span{display: inline-block;width: 100px;text-align: right;}
+
+.pay_method{padding: 45px 0 40px 45px;background: #FFFFFF;height: 720px;margin-bottom: 145px;}
+.pay_method h4{color: #202020;font-size: 18px;clear: both;margin-bottom: 10px;}
+.pay_method li{text-align: center;margin-bottom: 20px;border: #f83535 1px solid;float: left;border-radius: 3px;}
+.pay_method ol ,.pay_method ul{padding-left: 15px;clear: both;}
+.pay_method ol li {margin-right: 105px;width: 180px;height: 60px;margin-top: 20px;}
+.pay_method ul li {margin-right: 50px;width: 235px;height: 54px;}
+.pay_method ul{margin-right: -20px;}
+.pay_method ul li a img:first-child{position: relative;top: -15px;left: 3px;}
+.pay_method ol li a img:first-child{position: relative;top: -20px;left: 6px;}
+.pay_method .pay_btn {text-align: right;padding-top: 95px;clear: both;}
+.pay_method .pay_btn button{color: #FFFFFF;font-size: 18px;cursor: pointer;border-radius: 5px;height: 52px;width: 200px;border:none;background: #009247;margin-right: 40px;}
+
+
+#pay_box{display: none;}
+#big_box{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color: #666666;
+	z-index: 100;
+	opacity:0.3;
+    /*兼容IE8及以下版本浏览器*/
+    filter: alpha(opacity=30);
+}
+#small_box{
+	width: 300px;
+	height: 240px;
+	background-color: #FFFFFF;
+	z-index:110;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+}
+#password_box{
+	border: 1px solid #000;
+	width: 244px;
+	height: 40px;
+	margin: 20px auto;
+}
+#small_box h1{
+	text-align: center;
+	font-size: 28px;
+	margin-top: 20px;
+}
+#password_box input{
+	width: 35px;
+	height: 36px;
+	font-size: 28px;
+	text-align: center;
+	margin-right:-4px;
+	border: none;
+	border-right: 1px solid #000;
+}
+#pay_btn{
+	text-align: center;
+	margin-top: 30px;
+}
+#pay_btn button{
+	height: 34px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+	background-color: #009247;
+	border: 1px solid #009247;
+	padding: 2px 10px;
+}
+#pay_btn button:first-child{
+	background-color: #FFFFFF;
+	color: #000000;
+	margin-right: 60px;
+}

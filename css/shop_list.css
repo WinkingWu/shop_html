@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.screen a{color: #666666;}
+.screen a:hover{color: #47da8e;}
+.screen dd.on>a{color: #47DA8E;}
+.screen dd.on>a>i{border-top: 8px solid #47da8e;}
+.screen{background: #FFFFFF;margin: 50px auto;}
+.screen dl>*{float: left;font-size: 18px;height: 70px;line-height: 70px;}
+.screen dl{margin-left: 70px;clear: both;height: 95px;}
+.screen dt{font-size: 24px;color: #333333;width: 125px;}
+.screen .classify dd{width: 200px;}
+.screen .classify dd:nth-of-type(1){width: 110px;}
+.screen .brand dd{width: 100px;}
+.screen .brand dd:nth-of-type(1){width: 110px;}
+.screen .brand select{border: none;}
+.screen .brand option{border: none;}
+.screen .brand dd.dropdown {cursor: pointer;display: inline-block;text-align: center;position: relative;height: 36px;line-height: 36px;top: 16px;}
+.screen .brand dd.dropdown .caret{position: relative;top: 19px;left: -7px;}
+.screen .brand .more{float: left;padding-left:305px;margin-top: -25px;margin-bottom: 25px;}
+.screen .brand .more li{float: left;font-size: 18px;width: 100px;}
+.screen .brand .more li.on>a{color: #47DA8E;}
+
+.screen .price dd:nth-of-type(1){width: 110px;}
+.screen .price dd:nth-of-type(2){margin-right:30px;}
+.screen .price dd:nth-of-type(3){margin-right:35px;}
+.screen .price dd:nth-of-type(4){margin-right:40px;}
+.screen .price dd:nth-of-type(5){margin-right:75px;}
+.screen .price dd:nth-of-type(5) input{height: 18px;width: 56px;border: solid 1px #999999;color: #333333;font-size: 16px;line-height: 18px;border-radius: 5px;}
+.screen .price dd:nth-of-type(5) button{cursor: pointer;;height: 25px;line-height: 19px;width: 56px;border: solid 1px #999999;background: #CCCCCC;color: #666666;border-radius: 5px;}
+.screen .price dd:nth-of-type(5) i{border-bottom: 1px solid #999999;width: 20px;display: inline-block;margin-bottom: 6px;}
+.screen .price dd:nth-of-type(6) .serach{width: 138px;height: 22px;border:1px solid #999999;overflow: hidden;margin-top: 24px;border-radius: 5px;}
+.screen .price dd:nth-of-type(6) input{width: 100px;height: 18px;float: left;border: none;line-height: 18px;font-size: 16px;color: #333333;}
+.screen .price dd:nth-of-type(6) button{width: 34px;height: 23px;border: none;float: left;background:#999999 ;cursor: pointer;}
+.screen .price dd:nth-of-type(6) button img{height: 16px;margin-bottom: 7px;}
+
+.middle .pro_list ul{margin-left: -10px;}
+.middle .pro_list ul li{float: left;font-size: 22px;line-height: 30px;padding-bottom: 30px;background: #FFFFFF;text-align: center;margin:0 0 10px 10px;width: 290px;overflow: hidden;}
+.middle .pro_list ul li span{color: #373737;font-size: ;}
+.middle .pro_list ul li small{display: block;color: #666666;font-size: 20px;}
+.middle .pro_list ul li b{color: #ff3939;font-weight: normal;}
+.middle .pro_list ul li:hover a>*{color: #ff3333;}
+.middle .pro_list ul li:hover{box-shadow:-5px -5px 40px -10px;}

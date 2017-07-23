@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+
+.pre_data{color: #393939;;font-size: 18px;border-radius: 5px;margin-bottom: 128px;background: #FFFFFF;}
+.pre_data form{margin: 0 auto;width: 290px;padding-top: 50px;padding-bottom: 40px;}
+.pre_data input{width: 142px;height: 22px;line-height: 22px;border-radius: 3px;border: 1px solid #a3a3a3;}
+.pre_data label{display: inline-block;width: 95px;text-align: right;margin-right: 15px;margin-top: 16px;}
+.pre_data label.radio{width: 55px;text-align: left;}
+.pre_data label.radio input{width: 16px;height: 16px;margin-right: 10px;position: relative;top: 2px;}
+.pre_data button{cursor: pointer;margin-left: 100px;margin-top: 30px;line-height: 0;width: 150px;height: 35px;border: none;background: #009247;color: #FFFFFF;border-radius: 5px;}
+.pre_data i{border-top: 12px solid #000;border-left: 10px solid #fff;border-right: 10px solid #fff;float:right ;position: relative;top: 30px;right: 34px;}
+.pre_data b{position: relative;top: -50px;margin-right: 15px;}
+.pre_data #dateinfo{color: #757575;}
+.pre_data select{width: 148px;padding: 1px;border-radius: 3px;color: #757575;line-height:24px;appearance: none;-webkit-appearance: none;-moz-appearance: none;}
+.pre_data img{margin-bottom: 15px;}

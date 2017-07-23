@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>产品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pro_details.css"/>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/localStorage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/myjs.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/magnifier.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/pro_details.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/product.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<p>您好，欢迎来到德尔商城！</p>
+				<ul>
+					<li><a href="login.html">登录</a>/<a href="reg.html">注册</a></li>
+					<li><a href="shop_cart.html">购物车<i id="car_num">0</i></a></li>
+					<li><a href="order.html">我的订单</a></li>
+					<li><a href="###">企业采购</a></li>
+					<li><a href="###">帮助中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="logo_serach">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.jpg"/></a>
+				</div>
+				<form class="serach">
+					<input type="search" name="" id="" value="" />
+					<button type="submit"><img src="img/icon_search.png"/></button>
+				</form>
+			</div>
+		</div>
+		<div class="navbar">
+			<div class="container">
+				<div class="dropdown">
+					<div class="dropdown_btn">
+						<img src="img/icon_list.png"/>
+						<span>商品类型</span>
+					</div>
+					<div class="dropdown_menu hidden">
+						<ol>
+							<li class="dropdown_header"><img src="img/icon_dfg.png" alt="" />厨房小电器</li>
+							<li><a href="shop_list.html">电饭煲</a></li>
+							<li><a href="shop_list.html">电磁炉</a></li>
+							<li><a href="shop_list.html">电蒸锅</a></li>
+							<li><a href="shop_list.html">电炖锅</a></li>
+							<li><a href="shop_list.html">面条机</a></li>
+							<li><a href="shop_list.html">面包机</a></li>
+						</ol>
+						<ol>
+							<li class="dropdown_header"><img src="img/icon_xyyj.png" alt="" />厨卫电器</li>
+							<li><a href="shop_list.html">燃气炉</a></li>
+							<li><a href="shop_list.html">吸油烟机</a></li>
+							<li><a href="shop_list.html">消毒柜</a></li>
+							<li><a href="shop_list.html">微波炉</a></li>
+							<li><a href="shop_list.html">净水器</a></li>
+						</ol>
+						<ol>
+							<li class="dropdown_header"><img src="img/icon_tg.png"/>炊具</li>
+							<li><a href="shop_list.html">铲勺</a></li>
+							<li><a href="shop_list.html">提锅</a></li>
+							<li><a href="shop_list.html">水壶</a></li>
+							<li><a href="shop_list.html">压力锅</a></li>
+							<li><a href="shop_list.html">炒锅</a></li>
+							<li><a href="shop_list.html">煎锅</a></li>
+							<li><a href="shop_list.html">刀具</a></li>
+							<li><a href="shop_list.html">陶瓷煲</a></li>
+						</ol>
+					</div>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="shop_list.html">最新产品</a></li>
+						<li><a href="shop_list.html">热门产品</a></li>
+						<li><a href="shop_list.html">推荐产品</a></li>
+						<li><a href="shop_list.html">爆款推荐</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="product-intro container">
+			<div class="preview_wrap">
+				<div id="preview">
+					<img src="img/pro_details01.jpg"/>
+					<div id="box"></div>
+				</div>
+				<div id="big_view"></div>
+				<div class="spec-list">
+					<ul>
+						<li class="pro_img on"><img src="img/pro_details01.jpg"/></li>
+						<li><img src="img/pro_details02.jpg"/></li>
+						<li><img src="img/pro_details03.jpg"/></li>
+						<li><img src="img/pro_details04.jpg"/></li>
+						<li><img src="img/pro_details05.jpg"/></li>
+					</ul>
+				</div>
+			</div>
+			<div class="itemInfo_wrap">
+				<h2 id="pro_name">豪华智能电饭煲</h2>
+				<h3>德尔 CFXBe40FD8041-86；智能家用正品</h3>
+				<ul>
+					<li><span>价格：</span><b id="pro_price">￥300.00</b></li>
+					<li><span>容量：</span>
+						<ol id="pro_typt">
+							<li class="on">3.5L</li>
+							<li>4L</li>
+							<li>4.5L</li>
+						</ol>
+					</li>
+					<li><span>配送至：</span>
+						<div class="select_add">
+							<input type="text" name="" id="address" value="" placeholder="上海 上海【请选择】" readonly="readonly" onclick="AddToggle(this)"/>
+							<div class="add">
+								<ul>
+									<li>上海</li>
+									<li>深圳</li>
+									<li>北京</li>
+									<li>广州</li>
+									<li>武汉</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li><span>数量：</span>
+						<div class="buy_num">
+							<input type="text" name="" id="" value="1"/>
+							<button type="button" class="decline">-</button>
+							<button type="button" class="increase">+</button>
+						</div>
+					</li>
+					<li>
+						<a  id="add_pay" href="confirm_order.html">立即购买</a>
+						<a id="add_cart" href="###">加入购物车</a>
+					</li>
+					<li>
+						<small>月购量:<i>666</i></small>
+						<small>商品评价:<i>2999</i></small>
+						<small>送积分:<i>16</i></small>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="hot_pro container">
+			<h2>热门商品</h2>
+			<ul class="pro_list">
+				<li>
+					<a href="pro_details.html"><img class="img-responsive" src="img/shop_pro05.jpg" alt="" />
+						<span>家用电饭煲</span>
+						<small>德尔CFXB43-75</small>
+						<b>￥399</b>
+					</a>
+				</li>
+				<li>
+					<a href="pro_details.html"><img class="img-responsive" src="img/shop_pro06.jpg" alt="" />
+						<span>智能电饭煲</span>
+						<small>德尔CFXB43-75</small>
+						<b>￥399</b>
+					</a>
+				</li>
+				<li>
+					<a href="pro_details.html"><img class="img-responsive" src="img/shop_pro07.jpg" alt="" />
+						<span>家用面包机</span>
+						<small>德尔CFXB43-75</small>
+						<b>￥399</b>
+					</a>
+				</li>
+				<li>
+					<a href="pro_details.html"><img class="img-responsive" src="img/shop_pro08.jpg" alt="" />
+						<span>智能电饭煲</span>
+						<small>德尔CFXB43-75</small>
+						<b>￥399</b>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="pro_details container">
+			<h2>
+				<a href="javascript:void(0);" class="on" onclick="Toggle(event)">商品详情</a>
+				<a href="javascript:void(0);" onclick="Toggle(event)">商品评论(<b>2666</b>)</a>
+			</h2>
+			<div class="details show">
+				<img src="img/pro_details_big01.jpg"/>
+				<img src="img/pro_details_big02.jpg" />
+			</div>
+			<div class="comment">
+				<div class="pro_score">
+					<div class="score_left">
+						<h2><em>商品评分：</em><b>9.0</b><span></span><i>2666人评分</i></h2>
+					</div>
+					<div class=" score_right">
+						<ol>
+							<li>
+								<em>商品评分：</em>
+								<span>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing2.png"/>
+								</span>
+								<b>9.0</b>
+							</li>
+							<li>
+								<em>综合评分：</em>
+								<span>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing2.png"/>
+								</span>
+								<b>9.0</b>
+							</li>
+							<li>
+								<em>与描述相符：</em>
+								<span>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing2.png"/>
+								</span>
+								<b>9.0</b>
+							</li>
+							<li>
+								<em>发货速度：</em>
+								<span>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing1.png"/>
+									<img src="img/xing2.png"/>
+								</span>
+								<b>9.0</b>
+							</li>
+							<li>您可以对买过的商品进行评价</li>
+							<li><a href="comments.html">我要评价</a></li>
+						</ol>
+					</div>
+				</div>
+				<div class="buyers_comment">
+					<ul>
+						<li>
+							<div class="buyers">
+								<img src="img/touxiang01.jpg"/>
+								<h4>m****z</h4>
+							</div>
+							<div class="evaluate">
+								<span>2017-06-03</span>
+								<p>这东西不错，非常好用</p>
+							</div>
+							<div class="score">
+								<span></span>
+							</div>
+						</li>
+						<li>
+							<div class="buyers">
+								<img src="img/touxiang02.jpg"/>
+								<h4>x****l</h4>
+							</div>
+							<div class="evaluate">
+								<span>2017-06-03</span>
+								<p>这东西不错，非常好用</p>
+							</div>
+							<div class="score">
+								<span></span>
+							</div>
+						</li>
+						<li>
+							<div class="buyers">
+								<img src="img/touxiang03.jpg"/>
+								<h4>m****z</h4>
+							</div>
+							<div class="evaluate">
+								<span>2017-06-03</span>
+								<p>这东西不错，非常好用</p>
+							</div>
+							<div class="score">
+								<span></span>
+							</div>
+						</li>
+						<li>
+							<div class="buyers">
+								<img src="img/touxiang04.jpg"/>
+								<h4>m****z</h4>
+							</div>
+							<div class="evaluate">
+								<span>2017-06-03</span>
+								<p>这东西不错，非常好用</p>
+							</div>
+							<div class="score">
+								<span></span>
+							</div>
+						</li>
+						<li>
+							<div class="buyers">
+								<img src="img/touxiang05.jpg"/>
+								<h4>m****z</h4>
+							</div>
+							<div class="evaluate">
+								<span>2017-06-03</span>
+								<p>这东西不错，非常好用</p>
+							</div>
+							<div class="score">
+								<span></span>
+							</div>
+						</li>
+						<li>
+							<div class="buyers">
+								<img src="img/touxiang02.jpg"/>
+								<h4>m****z</h4>
+							</div>
+							<div class="evaluate">
+								<span>2017-06-03</span>
+								<p>这东西不错，非常好用</p>
+							</div>
+							<div class="score">
+								<span></span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="submit_conmment">
+					
+					<form>
+						<ul>
+							<li>
+								<em>服务态度：</em>
+								<ol class="mark">
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+								</ol>
+							</li>
+							<li>
+								<em>发货速度：</em>
+								<ol class="mark">
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+								</ol>
+							</li>
+							<li>
+								<em>与描述相符：</em>
+								<ol class="mark">
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+									<li><img src="img/xing3.png"/></li>
+								</ol>
+							</li>
+						</ul>
+						<textarea></textarea><br />
+						<a href="javaScript:void(0)" class="all_tick">
+							<img src="img/tick.png" class="tick"/><span>匿名评论</span>
+						</a>
+						<button type="submit">提交评论</button>
+					</form>
+				</div>
+				<div class="clear"></div>
+				<div class="lists">
+					<ol class="pagination">
+						<li class="disabled"><a href="#">上一页</a></li>
+						<li class="on"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">···</a></li>
+						<li><a href="#">下一页</a></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="help">
+			<div class="container">
+				<ul>
+					<li>
+						<img src="img/icon_quality.jpg"/>
+						<h1>品质保证</h1>
+					</li>
+					<li>
+						<img src="img/icon_blitz.jpg"/>
+						<h1>闪电发货</h1>
+					</li>
+					<li>
+						<img src="img/icon_seven.jpg"/>
+						<h1>7天无理由退货</h1>
+					</li>
+					<li>
+						<img src="img/icon_complete.jpg"/>
+						<h1>品类齐全</h1>
+					</li>
+					<li>
+						<img src="img/icon_service.jpg"/>
+						<h1>品类齐全</h1>
+					</li>
+				</ul>
+				<ol>
+					<li><h2>购物指南</h2></li>
+					<li><a href="###">免费注册</a></li>
+					<li><a href="###">开通支付宝</a></li>
+					<li><a href="###">支付宝充值</a></li>
+				</ol>
+				<ol>
+					<li><h2>购物保障</h2></li>
+					<li><a href="###">发票保障</a></li>
+					<li><a href="###">售后规则</a></li>
+					<li><a href="###">缺货赔付</a></li>
+				</ol>
+				<ol>
+					<li><h2>支付方式</h2></li>
+					<li><a href="###">快捷支付</a></li>
+					<li><a href="###">信用卡</a></li>
+					<li><a href="###">余额宝</a></li>
+					<li><a href="###">蚂蚁花呗</a></li>
+				</ol>
+				<ol>
+					<li><h2>客户服务</h2></li>
+					<li><a href="###">门店查询</a></li>
+					<li><a href="###">运输相关</a></li>
+					<li><a href="###">常见问题</a></li>
+				</ol>
+				<ol>
+					<li><h2>扫一扫</h2></li>
+					<li><img src="img/ewm.jpg" alt="" /></li>
+				</ol>
+			</div>
+		</div>
+		<div class="copy">
+			<div class="container">
+				<h3>关于德尔 帮助中心 开放平台 诚聘英才 联系我们 网站合作 法律声明及隐私权政策 知识产权 廉正举报 规则意见征集</h3>
+				<p>互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005   浙公网安备 33010002000120号</p>
+				<p>© 2003-2017 TMALL.COM 版权所有</p>
+			</div>
+		</div>
+	</body>
+</html>

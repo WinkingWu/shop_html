@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*下拉三角形*/
+.caret{height: 0;width: 0;border-left: 7px solid #FFFFFF;border-right: 7px solid #FFFFFF;border-top: 8px solid #666666;}
+/*上一页下一页列表*/
+.lists{padding: 50px 0;}
+.lists ol{height: 50px;width: 720px;margin: 0 auto;}
+.lists ol li{float: left;width: 45px;height: 45px;font-size: 24px;border: 1px solid #009247;text-align: center;margin: 0 18px;border-radius: 5px;}
+.lists ol li a{display: block;line-height: 45px;}
+.lists ol li a:hover{color: #FFFFFF;;background: #009247;}
+.lists ol li.on a{color: #FFFFFF;;background: #009247;}
+.lists ol li:nth-last-of-type(1) {width: 156px;}
+.lists ol li:nth-of-type(1) {width: 156px;}
+
+/*订单进度条*/
+.process ol{height: 60px;margin: 50px 0;color: #666666;}
+.process li{float: left;width: 25%;position: relative;}
+.process li p{margin-top: 15px;border-top: #999999 2px solid;}
+.process li>div{float: right;position: absolute;right: -10px ;top: 0;text-align: center;z-index: 10;}
+.process li i{margin: 0 auto;background: #f1f1f1;display: block;height: 28px;width: 28px;border: #999999 solid 2px;border-radius: 50%; ;}
+.process li:nth-of-type(1) *{border-color: #009247;}
+
+/*用户中心公共部分*/
+.user_nav{border-radius: 5px;color: #393939;font-size: 18px;height: 360px;padding: 35px 100px;margin: 100px 0 40px 0;background: #FFFFFF;}
+.user_nav .user_head{text-align: center;margin-bottom:30px ;}
+.user_nav li{float: left;;width: 120px;text-align: center;margin-right: 100px;} 
+.user_nav ul{margin-right: -110px;}
+.user_menu{background: #FFFFFF;border-radius: 5px;}
+.user_menu ol{height: 70px;padding-left: 50px;margin-bottom: 38px;border-radius: 5px;} 
+.user_menu ol li{height: 70px;line-height: 70px;float: left;margin-right: 55px;font-size: 22px;} 
+.user_menu ol li.on{border-bottom: 1px #009247 solid;}
+.user_menu ol li:hover{border-bottom: 1px #009247 solid;}
+.user_menu ol li a{display: block;color: #222222;}
+.user_menu ol li.on a{color:#009247 ;}
+.user_menu ol li:hover a{color:#009247 ;}

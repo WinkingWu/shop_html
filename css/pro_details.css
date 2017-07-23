@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+.product-intro{padding: 40px 0;height: 600px;}
+.product-intro .preview_wrap{float: left;;width: 50%;}
+.product-intro .preview_wrap #preview{cursor: all-scroll;position: relative;height: 490px;width: 490px;overflow: hidden;margin-bottom: 10px;}
+.product-intro .preview_wrap #preview>img{width: 490px;height: 490px;border-radius: 10px;}
+.product-intro .preview_wrap #preview #box{display: none;width: 150px;height: 150px;position: absolute;background: #CCCCCC;opacity:0.5;top: 0;}
+.product-intro .preview_wrap #big_view{border-radius: 10px;display: none;width: 500px;height: 500px;position: absolute;top: 235px;left: 47%;z-index: 100;overflow: hidden;background-color: #FFFFFF;}
+.product-intro .preview_wrap #big_view img{width: 327%;}
+.product-intro .preview_wrap .spec-list ul{width: 500px;height: 90px;margin-left: -5px;overflow: hidden;}
+.product-intro .preview_wrap .spec-list li{cursor: pointer;border: solid 2px #FFFFFF;box-sizing: border-box;float: left;margin:0 5px;border-radius: 5px;overflow: hidden;width: 90px;height: 90px;}
+.product-intro .preview_wrap .spec-list li img{width: 90px;height: 90px;}
+.product-intro .preview_wrap .spec-list li.on{border: solid 2px #d73938;}
+
+.product-intro .itemInfo_wrap{float: left;width: 50%;color: #333333;font-size: 16px;padding-top: 15px;width: 500px;}
+.product-intro .itemInfo_wrap h2{padding-left: 20px;font-size: 26px;line-height: 40px;}
+.product-intro .itemInfo_wrap h3{padding-left: 20px;}
+.product-intro .itemInfo_wrap>ul>li{float: left;margin: 22px 0;padding-left: 20px;width: 100%;}
+.product-intro .itemInfo_wrap li b{font-size:36px;font-weight: normal;color: #ff3333;}
+.product-intro .itemInfo_wrap>ul>li:nth-of-type(1){margin:15px 0 2px;height: 60px;line-height: 60px;background: #ffffff;border-radius: 10px;}
+.product-intro .itemInfo_wrap>ul>li:nth-of-type(1) span{position: relative;top:-7px;}
+.product-intro .itemInfo_wrap>ul>li span{display: inline-block;width: 85px;float: left;}
+.product-intro .itemInfo_wrap>ul>li:nth-of-type(2) li{text-align: center;float: left;margin: 5px 20px 0 0;height: 22px;width: 70px;line-height: 22px;border: solid 1px #a6a6a6;cursor: pointer;border-radius: 3px;}
+.product-intro .itemInfo_wrap>ul ol li.on {color: #009247;border-color: #009247;}
+.product-intro .itemInfo_wrap .select_add {position: relative;}
+.product-intro .itemInfo_wrap .select_add .add{display: none;position: absolute;border: 1px solid #a6a6a6;width: 178px;left: 88px;background-color: #FFFFFF;z-index: 10;}
+.product-intro .itemInfo_wrap .select_add .add li{border-top:  1px solid #a6a6a6;text-align: center;}
+.product-intro .itemInfo_wrap .select_add .add li:hover{background-color: #F1F1F1;cursor: pointer;}
+.product-intro .itemInfo_wrap .select_add .add li:first-child{border-top: none;}
+.product-intro .itemInfo_wrap .select_add input{cursor: pointer;text-align: center;width: 180px;height: 20px;line-height:20px;background-color: #f1f1f1;border: 1px solid #a6a6a6;border-radius: 5px;}
+/*.product-intro .itemInfo_wrap .select_add input:hover+.add{display: block;}*/
+/*.product-intro .itemInfo_wrap .select_add .add:hover{display: block;}*/
+.product-intro .itemInfo_wrap .select_add select{border: none;background: #f1f1f1;width: 193px;padding-left: 10px;position: relative;top: -4px;cursor: pointer;}
+
+.product-intro .itemInfo_wrap .buy_num{}
+.product-intro .itemInfo_wrap .buy_num input{width: 46px;height: 24px;line-height: 24px;text-align: center;background: #f1f1f1;border-radius: 3px;border: 1px solid #a6a6a6 ;}
+.product-intro .itemInfo_wrap .buy_num>*{float: left;}
+.product-intro .itemInfo_wrap .buy_num button{cursor: pointer;width: 20px;padding-left:3px;height: 14px;background: #f1f1f1;border-radius: 3px;border: 1px solid #a6a6a6 ;line-height: 0px;position: relative;}
+.product-intro .itemInfo_wrap .buy_num button:nth-of-type(1){left: 3px;top: 16px;}
+.product-intro .itemInfo_wrap .buy_num button:nth-of-type(2){left: -17px;top: 0px;}
+.product-intro .itemInfo_wrap>ul>li>a{display:inline-block;color: #00AB53;font-size: 26px;text-align: center;border-radius: 5px;line-height: 48px;width: 206px;height: 48px;border: solid 1px #00ab53;background: #F1F1F1;}
+.product-intro .itemInfo_wrap>ul>li>a:nth-last-of-type(1){background: #00AB53;color: #FFFFFF;margin-left: 60px;}
+.product-intro .itemInfo_wrap>ul>li:nth-last-of-type(1){padding-left: 0;margin-left: 20px;border-top: 1px solid #a6a6a6;border-bottom:1px solid #a6a6a6;height: 80px;}
+.product-intro .itemInfo_wrap>ul>li small{display: inline-block;width: 170px;font-size: 16px;color: #666666;line-height: 80px;}
+.product-intro .itemInfo_wrap>ul>li small:nth-last-of-type(1){width: 125px;}
+.product-intro .itemInfo_wrap>ul>li small i{font-style: normal;}
+
+.hot_pro h2{box-shadow: 1px 1px 10px -3px;font-size: 22px;color: #333333;background: #FFFFFF;height: 70px;padding-left: 30px;border-radius: 5px;line-height: 70px;margin: 20px 0;}
+.hot_pro ul{margin-left: -10px;margin-top: 40px;}
+.hot_pro ul li{float: left;font-size: 22px;line-height: 30px;padding-bottom: 30px;background: #FFFFFF;text-align: center;margin:0 0 10px 10px;width: 290px;overflow: hidden;}
+.hot_pro ul li span{color: #373737;font-size: ;}
+.hot_pro ul li small{display: block;color: #666666;font-size: 20px;}
+.hot_pro ul li b{color: #ff3939;font-weight: normal;}
+.hot_pro ul li:hover a>*{color: #ff3333;}
+.hot_pro ul li:hover{box-shadow:-5px -5px 40px -10px;}
+
+.pro_details>h2{box-shadow: 1px 1px 10px -3px;font-size: 22px;color: #333333;background: #FFFFFF;height: 70px;padding-left: 30px;border-radius: 5px;line-height: 70px;margin-top: 80px;}
+.pro_details h2 a{margin-right: 160px;color: #333333;padding-bottom: 20px;}
+.pro_details h2 a.on{color: #00AB53;border-bottom: 2px solid #00AB53;}
+.pro_details h2 a b{font-weight: normal;}
+.pro_details .details{display: none;margin: 70px 0;overflow: hidden;}
+
+.pro_details .comment{display: none;margin: 70px 0;background: #FFFFFF;}
+.pro_details .comment>ul{border-top:  solid 1px #a6a6a6;}
+.pro_details .comment .buyers_comment ul>li{height: 160px;border-bottom: solid 1px #a6a6a6;padding-top: 25px;}
+.pro_details .comment ul>li>div{float: left;}
+
+.pro_score{height: 260px;padding:70px 55px 0px;}
+.pro_score .score_left{float: left;width: 50%;}
+.pro_score .score_left h2 em{font-size: 24px;float: left;line-height: 24px;}
+.pro_score .score_left h2 b{font-size: 80px;margin-left: 10px;color: #e67f33;line-height: 60px;font-weight: normal;float: left;}
+.pro_score .score_left h2 span{float: left;margin-left: 50px;height: 32px;width: 172px;background: url(../img/xing0.jpg) no-repeat;}
+.pro_score .score_left h2  i{line-height: 50px;font-size: 16px;float: left;margin-left:52px;font-style: normal;}
+.pro_score .score_right{font-size: 16px;float: left;width: 50%;}
+.pro_score .score_right li{float: left;text-align: right;width: 260px;margin-bottom: 30px;}
+.pro_score .score_right li:nth-last-of-type(2){position: relative;left: 60px;}
+.pro_score .score_right li span{display:inline-block;width: 75px;height: 16px;}
+.pro_score .score_right li span img{height: 15px;float: left;margin-top: 2px;}
+.pro_score .score_right li b{font-weight: normal;}
+.pro_score .score_right li a{cursor: pointer;font-style: normal;background: #00AB53;color: #FFFFFF;padding:5px 30px;border-radius: 3px;}
+.pro_details .comment .buyers_comment .buyers{width: 340px;text-align: center;font-size:16px ;}
+.pro_details .comment .buyers_comment .evaluate{width: 740px;font-size: 14px;padding-top: 25px;}
+.pro_details .comment .buyers_comment .evaluate span{font-size:12px;color: #666666 ;}
+.pro_details .comment .buyers_comment .score {padding-top: 45px;}
+.pro_details .comment .buyers_comment .score span{display:inline-block;width: 75px;height: 15px;background: url(../img/xing.png) no-repeat 0px -15px;}
+
+.pro_details .comment .submit_conmment{padding: 80px 40px 0 90px;}
+.pro_details .comment .submit_conmment ul{float: left;width: 220px;display: inline-block;margin-top: 20px;margin-right: 45px;}
+.pro_details .comment .submit_conmment ul>li em{float: left;display: inline-block;width: 100px;text-align: right;}
+.pro_details .comment .submit_conmment .mark img{cursor: pointer;width: 16px;height: 16px;}
+.pro_details .comment .submit_conmment ol li{float: left;}
+.pro_details .comment .submit_conmment form{float: right;font-size: 14px;color: #666666;}
+.pro_details .comment .submit_conmment form textarea{width: 778px;height: 140px;}
+.pro_details .comment .submit_conmment form a{margin-left: 265px;color: inherit;}
+.pro_details .comment .submit_conmment form span{position: relative;left: 3px;top: -2px;}
+.pro_details .comment .submit_conmment form button{cursor: pointer;float: right;margin-top: 15px;font-size: 16px;border: 1px solid #00AB53;background: #FFFFFF;width: 150px;32px;}
+
+
